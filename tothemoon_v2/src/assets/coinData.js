@@ -1954,7 +1954,7 @@ export default[
   {
     coin_code: "CON",
     coin_knm: "코넌",
-    img_id: "CON",
+    img_id: "CON1",
     coin_enm: "Conun",
     coin_content001:
       "코넌(CON)은 P2P 네트워크를 통해 개인용 컴퓨터 리소스를 공유하여 고성능 컴퓨팅 시스템을 필요로 하는 프로젝트의 테스크를 처리 할 수 있도록 수평적 분산형 컴퓨팅 시스템을 구축하는 플랫폼입니다. CON은 플랫폼 내에서 발생하는 트랜잭션을 기록, 관리하고 참여자들의 보상을 위해 사용됩니다.",
