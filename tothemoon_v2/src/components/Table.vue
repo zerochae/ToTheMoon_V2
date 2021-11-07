@@ -34,6 +34,7 @@ export default {
   data() {
     return {
       coinCode: "",
+      coin_price : "",
     };
   },
   props: {
@@ -44,8 +45,12 @@ export default {
       .get("https://api.bithumb.com/public/ticker/ALL")
       .then((result) => {
         let data = result.data.data;
+        console.log(data)
         this.coinCode = Object.keys(data);
-
+        
+        for(let i =0; i<this.coinCode.length; i++){
+        this.coin_price.push(coin_price.coinCode[i])
+        }
 
       });
   },
