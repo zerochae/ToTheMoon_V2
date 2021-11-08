@@ -2,6 +2,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 12px;
+}
+
+
+.container{
+}
+
+.section{
+height: 1200px;
+width: 765px;
+margin : 0px 91px;
+padding: 20px 0px 80px;
+}
+
+.side-bar{
+    width: 360px;
+    height: 1160px;
+}
+
+.search-bar-box{
+    margin: 15px;
+}
+
+.search-input{
+    height: 37px;
+    width: 290px;
+}
+
+.search-submit{
+    height: 37px;
+    width: 40px;
+    border: none;
+    background-color: white;
+    font-size: 22px;
+    vertical-align: top;
 }
 
 .coin-img{
@@ -14,6 +49,26 @@
 p,span,h1,h2,h3,h4,td,th{
     transform: rotate(0.04deg);
 }
+.coin-price-table{
+    margin-right: 5px;
+    border-collapse : collapse;
+    border-spacing : 0;
+}
+.coin-price-table td{
+    padding: 3px;
 
-.coin-price-container{
+}
+
+.row:hover{
+    background-color: #eee;
+}
+
+.row:active{
+    border-left: 1px solid cadetblue;
+}
+
+.table-box{
+    width: 360px;
+    overflow: auto;
+    height: 860px;
 }

@@ -1,0 +1,29 @@
+.footer-wrapper{
+    background-color: #242a32;
+    color : #7f8994;
+    height: 500px;
+    min-width: 1200px;
+    vertical-align: baseline;
+}
+
+.footer{
+    min-width: 1200px;
+    margin : 0 100px 0 100px;
+    padding : 55px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer h3{
+    color : white;
+}
+
+.fc_list{
+    list-style: none;
+}
+
+.link i{
+    margin-right: 20px;
+}
