@@ -2,17 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 12px;
 }
 
+p,span,h1,h2,h3,h4,td,th{
+    transform: rotate(0.04deg);
+}
 
 .container{
 }
 
 .section{
+display: flex;
 height: 1200px;
-width: 765px;
-margin : 0px 91px;
+width: 1200px;
+margin : 0px 300px 0 300px;
 padding: 20px 0px 80px;
 }
 
@@ -37,38 +40,4 @@ padding: 20px 0px 80px;
     background-color: white;
     font-size: 22px;
     vertical-align: top;
-}
-
-.coin-img{
-    width: 32px;
-    vertical-align: text-top;
-    margin: 10px;
-    padding: 5px;
-}
-
-p,span,h1,h2,h3,h4,td,th{
-    transform: rotate(0.04deg);
-}
-.coin-price-table{
-    margin-right: 5px;
-    border-collapse : collapse;
-    border-spacing : 0;
-}
-.coin-price-table td{
-    padding: 3px;
-
-}
-
-.row:hover{
-    background-color: #eee;
-}
-
-.row:active{
-    border-left: 1px solid cadetblue;
-}
-
-.table-box{
-    width: 360px;
-    overflow: auto;
-    height: 860px;
 }

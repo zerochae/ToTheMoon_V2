@@ -71,4 +71,5 @@ export default {
 </script>
 
 <style>
+@import "./../assets/Table.css";
 </style>

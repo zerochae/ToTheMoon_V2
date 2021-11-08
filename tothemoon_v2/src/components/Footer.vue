@@ -1,8 +1,8 @@
 <template>
   <div class="footer-wrapper">
     <div class="footer">
-    <div class="footer-logo">
-      <p>가상자산의 가치 변동으로 인한 손실 발생 가능성 등을 <br>
+    <div class="footer-content">
+      <p>가상자산의 가치 변동으로 인한 손실 발생 가능성 등을 
       유념하시어 무리한 투자는 지양 하십시오.</p>
     </div>
       <div class="footer-content">
@@ -30,7 +30,7 @@
       <div class="footer-content">
         <ul class="fc_list">
           <h3>연락처</h3>
-          <div class="link">
+          <div style="margin-top:15px" class="link">
             <i class="fab fa-facebook-square"></i>
             <i class="fab fa-instagram"></i>
             <i class="fab fa-twitter-square"></i>

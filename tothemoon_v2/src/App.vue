@@ -1,21 +1,20 @@
 <template>
-  <div class="container">
-    <Nav/>
-    <News/>
-    <div class="section">
-      <div class="side-bar">
-        <div class="search-bar-box">
-          <input class="search-input" type="text" />
-          <input type="submit" class="search-submit" value="🛠️" />
+  <div>
+      <Nav />
+      <News />
+      <div class="section">
+        <div class="side-bar">
+          <div class="search-bar-box">
+            <input class="search-input" type="text" />
+            <input type="submit" class="search-submit" value="🛠️" />
+          </div>
+          <div class="table-box">
+            <Table :coinData="coinData" />
+          </div>
         </div>
-        <div class="table-box">
-          <Table :coinData="coinData" />
-        </div>
+        <div class="content"></div>
       </div>
-      <div class="content">
-      </div>
-    </div>
-    <Footer/>
+      <Footer />
   </div>
 </template>
 
@@ -44,4 +43,6 @@ export default {
 
 <style>
 @import "./assets/App.css";
+@import "./assets/content.css";
+
 </style>
