@@ -2,6 +2,7 @@
   <div class="footer-wrapper">
     <div class="footer">
     <div class="footer-content">
+      <img src="./../assets/logo-footer.jpg" alt="">
       <p>가상자산의 가치 변동으로 인한 손실 발생 가능성 등을 
       유념하시어 무리한 투자는 지양 하십시오.</p>
     </div>
